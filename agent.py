@@ -61,7 +61,7 @@ def run_agent(user_request: str, user_role: str = "Customer", max_iterations: in
 
     print(f"\n=== New Request [{user_role}]: '{user_request}' ===")
 
-    while iterations < max_iterations: # Section 2.D: Iteration Limit Control
+    while iterations < max_iterations: 
         iterations += 1
         print(f"\n--- [Iteration {iterations}/{max_iterations}] ---")
 
