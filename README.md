@@ -86,3 +86,17 @@ Agent produced final answer.
 
 Final Agent Answer:
 The product "Laptop Pro" (ID: 1) has been successfully deleted from the inventory.
+
+
+## 7. How to Run the Agent
+### Setup Steps
+
+1. **Pull the Ollama Model**:
+   Ensure Ollama is active, then pull the model used by the agent:
+   ```bash
+   ollama pull qwen3:4b
+   Clone the repository:
+   git clone [https://github.com/nikahort320-sys/10_PP_Hort_Soknika.git](https://github.com/nikahort320-sys/10_PP_Hort_Soknika.git)
+cd 10_PP_Hort_Soknika
+Install dependencies:pip install -r requirements.txt
+Run agent: python harness.py
