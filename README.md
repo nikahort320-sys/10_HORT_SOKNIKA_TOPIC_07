@@ -96,7 +96,7 @@ The product "Laptop Pro" (ID: 1) has been successfully deleted from the inventor
    ```bash
    ollama pull qwen3:4b
    Clone the repository:
-   git clone [https://github.com/nikahort320-sys/10_PP_Hort_Soknika.git](https://github.com/nikahort320-sys/10_PP_Hort_Soknika.git)
-cd 10_PP_Hort_Soknika
+   git clone https://github.com/nikahort320-sys/10_HORT_SOKNIKA_TOPIC_07.git
+
 Install dependencies:pip install -r requirements.txt
 Run agent: python harness.py
